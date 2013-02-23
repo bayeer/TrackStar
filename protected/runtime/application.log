@@ -1,0 +1,636 @@
+2013/02/03 23:29:19 [error] [exception.CException] exception 'CException' with message 'IssueController and its behaviors do not have a method or closure named "filterprojectContext".' in D:\xampp\yiiframework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CComponent->__call('filterprojectCo...', Array)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterprojectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue/admin
+---
+2013/02/03 23:30:00 [error] [exception.CException] exception 'CException' with message 'IssueController and its behaviors do not have a method or closure named "filterProjectContext".' in D:\xampp\yiiframework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CComponent->__call('filterProjectCo...', Array)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue/admin
+---
+2013/02/03 23:30:01 [error] [exception.CException] exception 'CException' with message 'IssueController and its behaviors do not have a method or closure named "filterProjectContext".' in D:\xampp\yiiframework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CComponent->__call('filterProjectCo...', Array)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue/admin
+---
+2013/02/03 23:30:02 [error] [exception.CException] exception 'CException' with message 'IssueController and its behaviors do not have a method or closure named "filterProjectContext".' in D:\xampp\yiiframework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CComponent->__call('filterProjectCo...', Array)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue/admin
+---
+2013/02/03 23:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue/admin
+---
+2013/02/03 23:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue/admin
+---
+2013/02/03 23:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:33:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:34:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:34:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/03 23:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '”казаннный проект не существует в базе' in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(207): IssueController->loadProject(0)
+#1 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#10 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#11 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii1/index.php?r=issue
+---
+2013/02/04 00:31:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii1db.tbl_user_assignment' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_user_assignment`.
+in D:\xampp\htdocs\yii1\protected\models\Project.php (110)
+in D:\xampp\htdocs\yii1\protected\views\issue\_form.php (44)
+in D:\xampp\htdocs\yii1\protected\views\issue\create.php (15)
+2013/02/04 00:31:27 [error] [exception.CDbException] exception 'CDbException' with message 'The relation "users" in active record class "Project" is not specified correctly: the join table "tbl_user_assignment" given in the foreign key cannot be found in the database.' in D:\xampp\yiiframework\db\ar\CActiveFinder.php:566
+Stack trace:
+#0 D:\xampp\yiiframework\db\ar\CActiveFinder.php(522): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(Project))
+#1 D:\xampp\yiiframework\db\ar\CActiveFinder.php(167): CJoinElement->lazyFind(Object(Project))
+#2 D:\xampp\yiiframework\db\ar\CActiveRecord.php(269): CActiveFinder->lazyFind(Object(Project))
+#3 D:\xampp\yiiframework\db\ar\CActiveRecord.php(142): CActiveRecord->getRelated('users')
+#4 D:\xampp\htdocs\yii1\protected\models\Project.php(110): CActiveRecord->__get('users')
+#5 D:\xampp\htdocs\yii1\protected\views\issue\_form.php(44): Project->getUserOptions()
+#6 D:\xampp\yiiframework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#7 D:\xampp\yiiframework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\yiiframework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yii1\protected\views\issue\create.php(15): CController->renderPartial('_form', Array)
+#10 D:\xampp\yiiframework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#11 D:\xampp\yiiframework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\yiiframework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\yiiframework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#14 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(100): CController->render('create', Array)
+#15 D:\xampp\yiiframework\web\actions\CInlineAction.php(50): IssueController->actionCreate()
+#16 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(218): CFilterChain->run()
+#19 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#20 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#22 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#23 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#24 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#25 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#26 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#28 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#29 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#30 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create&pid=1
+HTTP_REFERER=http://localhost/yii1/index.php?r=project/view&id=1
+---
+2013/02/10 20:26:49 [error] [exception.CException] exception 'CException' with message 'Property "Issue.statuses" is not defined.' in D:\xampp\yiiframework\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\yiiframework\db\ar\CActiveRecord.php(144): CComponent->__get('statuses')
+#1 D:\xampp\htdocs\yii1\protected\views\issue\_form.php(38): CActiveRecord->__get('statuses')
+#2 D:\xampp\yiiframework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#3 D:\xampp\yiiframework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\yiiframework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yii1\protected\views\issue\create.php(15): CController->renderPartial('_form', Array)
+#6 D:\xampp\yiiframework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#7 D:\xampp\yiiframework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\yiiframework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\yiiframework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(100): CController->render('create', Array)
+#11 D:\xampp\yiiframework\web\actions\CInlineAction.php(50): IssueController->actionCreate()
+#12 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(218): CFilterChain->run()
+#15 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#16 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#22 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#24 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/create')
+#25 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/yii1/index.php?r=issue/create&pid=1
+HTTP_REFERER=http://localhost/yii1/index.php?r=project/view&id=1
+---
+2013/02/10 20:52:04 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii1\protected\views\issue\view.php:26)
+Stack trace:
+#0 D:\xampp\yiiframework\web\CController.php(870): IssueController->renderFile()
+#1 D:\xampp\yiiframework\web\CController.php(783): IssueController->renderPartial()
+#2 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): IssueController->runAction()
+#8 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterAccessControl()
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(266): IssueController->runActionWithFilters()
+#14 D:\xampp\yiiframework\web\CWebApplication.php(276): IssueController->run()
+#15 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/index.php?r=issue/view&id=1
+in D:\xampp\htdocs\yii1\protected\views\issue\view.php (26)
+in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php (75)
+in D:\xampp\htdocs\yii1\index.php (13)
+2013/02/10 20:52:52 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii1\protected\views\issue\view.php:26)
+Stack trace:
+#0 D:\xampp\yiiframework\web\CController.php(870): IssueController->renderFile()
+#1 D:\xampp\yiiframework\web\CController.php(783): IssueController->renderPartial()
+#2 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): IssueController->runAction()
+#8 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterAccessControl()
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(266): IssueController->runActionWithFilters()
+#14 D:\xampp\yiiframework\web\CWebApplication.php(276): IssueController->run()
+#15 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/index.php?r=issue/view&id=1
+in D:\xampp\htdocs\yii1\protected\views\issue\view.php (26)
+in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php (75)
+in D:\xampp\htdocs\yii1\index.php (13)
+2013/02/10 20:52:53 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii1\protected\views\issue\view.php:26)
+Stack trace:
+#0 D:\xampp\yiiframework\web\CController.php(870): IssueController->renderFile()
+#1 D:\xampp\yiiframework\web\CController.php(783): IssueController->renderPartial()
+#2 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): IssueController->runAction()
+#8 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterAccessControl()
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(266): IssueController->runActionWithFilters()
+#14 D:\xampp\yiiframework\web\CWebApplication.php(276): IssueController->run()
+#15 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/index.php?r=issue/view&id=1
+in D:\xampp\htdocs\yii1\protected\views\issue\view.php (26)
+in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php (75)
+in D:\xampp\htdocs\yii1\index.php (13)
+2013/02/10 20:52:53 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii1\protected\views\issue\view.php:26)
+Stack trace:
+#0 D:\xampp\yiiframework\web\CController.php(870): IssueController->renderFile()
+#1 D:\xampp\yiiframework\web\CController.php(783): IssueController->renderPartial()
+#2 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): IssueController->runAction()
+#8 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterAccessControl()
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(266): IssueController->runActionWithFilters()
+#14 D:\xampp\yiiframework\web\CWebApplication.php(276): IssueController->run()
+#15 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/index.php?r=issue/view&id=1
+in D:\xampp\htdocs\yii1\protected\views\issue\view.php (26)
+in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php (75)
+in D:\xampp\htdocs\yii1\index.php (13)
+2013/02/10 20:52:53 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii1\protected\views\issue\view.php:26)
+Stack trace:
+#0 D:\xampp\yiiframework\web\CController.php(870): IssueController->renderFile()
+#1 D:\xampp\yiiframework\web\CController.php(783): IssueController->renderPartial()
+#2 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): IssueController->runAction()
+#8 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterAccessControl()
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(266): IssueController->runActionWithFilters()
+#14 D:\xampp\yiiframework\web\CWebApplication.php(276): IssueController->run()
+#15 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/index.php?r=issue/view&id=1
+in D:\xampp\htdocs\yii1\protected\views\issue\view.php (26)
+in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php (75)
+in D:\xampp\htdocs\yii1\index.php (13)
+2013/02/10 20:52:54 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii1\protected\views\issue\view.php:26)
+Stack trace:
+#0 D:\xampp\yiiframework\web\CController.php(870): IssueController->renderFile()
+#1 D:\xampp\yiiframework\web\CController.php(783): IssueController->renderPartial()
+#2 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): IssueController->runAction()
+#8 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterAccessControl()
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(266): IssueController->runActionWithFilters()
+#14 D:\xampp\yiiframework\web\CWebApplication.php(276): IssueController->run()
+#15 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/index.php?r=issue/view&id=1
+in D:\xampp\htdocs\yii1\protected\views\issue\view.php (26)
+in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php (75)
+in D:\xampp\htdocs\yii1\index.php (13)
+2013/02/10 20:52:54 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii1\protected\views\issue\view.php:26)
+Stack trace:
+#0 D:\xampp\yiiframework\web\CController.php(870): IssueController->renderFile()
+#1 D:\xampp\yiiframework\web\CController.php(783): IssueController->renderPartial()
+#2 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): IssueController->runAction()
+#8 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterAccessControl()
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(266): IssueController->runActionWithFilters()
+#14 D:\xampp\yiiframework\web\CWebApplication.php(276): IssueController->run()
+#15 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/index.php?r=issue/view&id=1
+in D:\xampp\htdocs\yii1\protected\views\issue\view.php (26)
+in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php (75)
+in D:\xampp\htdocs\yii1\index.php (13)
+2013/02/10 20:52:54 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii1\protected\views\issue\view.php:26)
+Stack trace:
+#0 D:\xampp\yiiframework\web\CController.php(870): IssueController->renderFile()
+#1 D:\xampp\yiiframework\web\CController.php(783): IssueController->renderPartial()
+#2 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): IssueController->runAction()
+#8 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): IssueController->filterAccessControl()
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(266): IssueController->runActionWithFilters()
+#14 D:\xampp\yiiframework\web\CWebApplication.php(276): IssueController->run()
+#15 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/index.php?r=issue/view&id=1
+in D:\xampp\htdocs\yii1\protected\views\issue\view.php (26)
+in D:\xampp\htdocs\yii1\protected\controllers\IssueController.php (75)
+in D:\xampp\htdocs\yii1\index.php (13)
+2013/02/10 20:53:09 [error] [exception.CException] exception 'CException' with message 'Property "Issue.request" is not defined.' in D:\xampp\yiiframework\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\yiiframework\db\ar\CActiveRecord.php(144): CComponent->__get('request')
+#1 D:\xampp\htdocs\yii1\protected\views\issue\view.php(27): CActiveRecord->__get('request')
+#2 D:\xampp\yiiframework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#3 D:\xampp\yiiframework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\yiiframework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\yiiframework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 D:\xampp\htdocs\yii1\protected\controllers\IssueController.php(75): CController->render('view', Array)
+#7 [internal function]: IssueController->actionView('2')
+#8 D:\xampp\yiiframework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(IssueController), Array)
+#9 D:\xampp\yiiframework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(IssueController), Object(ReflectionMethod), Array)
+#10 D:\xampp\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\xampp\yiiframework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\xampp\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\xampp\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\xampp\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\xampp\yiiframework\web\CController.php(292): CFilterChain->run()
+#17 D:\xampp\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\yiiframework\web\CWebApplication.php(276): CController->run('view')
+#19 D:\xampp\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('issue/view')
+#20 D:\xampp\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yii1\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii1/index.php?r=issue/view&id=2
+HTTP_REFERER=http://localhost/yii1/index.php?r=project/view&id=1
+---
